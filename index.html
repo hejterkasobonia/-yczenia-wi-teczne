@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Życzenia świąteczne</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        #zegar {
+            font-size: 24px;
+            margin: 10px;
+        }
+
+        .flower {
+            position: fixed;
+            top: -50px;
+            font-size: 24px;
+            animation: fall 5s linear infinite;
+        }
+
+        @keyframes fall {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(100vh); }
+        }
+    </style>
+</head>
+<body>
+    <h1>Wesołych Świąt Wielkanocnych i smacznego jaja!</h1>
+    <div id="zegar"></div>
+<img src="pisankaaa.png" />
+    <script src="zegar.js"></script>
+    <script src="kwiaty.js"></script>
+</body>
+</html>
